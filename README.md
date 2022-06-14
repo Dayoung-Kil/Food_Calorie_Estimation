@@ -61,7 +61,7 @@ python volume_estimator.py --input_images ../Food_Detection/Myfood/images/test_s
 
 #### 👩‍💻 code 설명
 - --input_images : input image 경로
-- depth_model_architecture, depth_model_weights, segmentation_weights는 [여기](https://github.com/AlexGraikos/food_volume_estimation#models)에서 다운로드
+- depth_model_architecture, depth_model_weights, segmentation_weights는 [여기](https://github.com/AlexGraikos/food_volume_estimation#models)에서 다운로드 후 ./Food_volume_estimation/ 에 
 - --plot_results : depth와 object mask, plate contour을 그림으로 나타냄
 - --plate_diameter_prior : 접시 지름
 
