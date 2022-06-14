@@ -41,7 +41,7 @@
 <br>
 
 
-### 3-3. Calorie Estimation
+### 3-3. [Calorie Estimation](https://github.com/arittung/Food_Calorie_Estimation/blob/main/Food_volume_estimation/volume_estimator.py#L510)
 - Food 101 데이터 셋의 음식 종류와 g수에 따른 칼로리, 영양성분을 나타내기 위해 dict = {'food' : [g, kcal, 탄수화물, 단백질, 지방, 당류]} 형태의 딕셔너리 생성
 - (추정한 volume / g) * kcal 로 input image의 최종 칼로리 계산
 
