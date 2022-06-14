@@ -52,10 +52,14 @@
 <br><br>
 
 ## 4. Code 실행 방법
-### 4-1 환경 설정 : requirements.txt 설치
+### 4-1 환경 설정 
+- requirements.txt 설치
 ```
 pip install -r requirements.txt 
 ```
+- [food dataset](https://drive.google.com/file/d/1PE3r-ve0FOOMEwIzZJfEo5PXH6KtDZOF/view?usp=sharing) 다운로드 후 ./Food_Detection/ 에 압축 풀기
+- [CNN Model](https://drive.google.com/file/d/1B_aWg1_1JIbCU6cbNcqzwHqu7AY0gZ4M/view?usp=sharing) 다운로드 후 ./Food_Detection/ 에 압축 풀기
+
 <br>
 
 ### 4-2 [volume_estimator.py](https://github.com/arittung/Food_Calorie_Estimation/blob/main/Food_volume_estimation/volume_estimator.py) 파일 실행. 
@@ -67,7 +71,7 @@ python volume_estimator.py --input_images ../Food_Detection/Myfood/images/test_s
 
 #### 👩‍💻 code 설명
 - --input_images : input image 경로
-- depth_model_architecture, depth_model_weights, segmentation_weights는 [여기](https://github.com/AlexGraikos/food_volume_estimation#models)에서 다운로드 후 ./Food_volume_estimation/ 에 
+- depth_model_architecture, depth_model_weights, segmentation_weights는 [여기](https://github.com/AlexGraikos/food_volume_estimation#models)에서 다운로드 후 ./Food_volume_estimation/ 에 넣기
 - --plot_results : depth와 object mask, plate contour을 그림으로 나타냄
 - --plate_diameter_prior : 접시 지름
 
