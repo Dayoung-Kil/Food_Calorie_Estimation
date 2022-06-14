@@ -52,7 +52,13 @@
 <br><br>
 
 ## 4. Code 실행 방법
-- [volume_estimator.py](https://github.com/arittung/Food_Calorie_Estimation/blob/main/Food_volume_estimation/volume_estimator.py) 파일 실행. 
+### 4-1 환경 설정 : requirements.txt 설치
+```
+pip install -r requirements.txt 
+```
+<br>
+
+### 4-2 [volume_estimator.py](https://github.com/arittung/Food_Calorie_Estimation/blob/main/Food_volume_estimation/volume_estimator.py) 파일 실행. 
   - food_detection, volume estimation, calorie calculation이 한번에 실행되도록 구현
 
 ```
