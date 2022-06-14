@@ -502,6 +502,8 @@ if __name__ == '__main__':
         volume = 0
         for i in range(len(results['volumes'][0])):
             volume += results['volumes'][0][i]
+            
+        # L to g
         volume *= 1000
         print("[*] Detected Food : {}".format(food))
         print("FOOD Volume: ", volume, "g")
