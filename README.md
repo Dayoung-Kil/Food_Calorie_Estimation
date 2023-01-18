@@ -1,5 +1,5 @@
 # Food Calorie Estimation
-## 2022-1 기계 학습과 인공지능 Term Project - 김준용, 길다영, 장재훈
+### 2022-1 기계 학습과 인공지능 Term Project - 김준용, 길다영, 장재훈
 
 <br>
 
