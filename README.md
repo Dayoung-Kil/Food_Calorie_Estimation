@@ -1,5 +1,7 @@
 ## Food Calorie Estimation
 #### 2022-1 기계 학습과 인공지능 Term Project - 김준용, 길다영, 장재훈
+#### Food Calorie Estimation : Food Detection 및 Volume Estimation을 통해, 이미지 내 음식의 칼로리 계산하는 프로젝트
+
 
 <br>
 
