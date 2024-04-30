@@ -1,0 +1,26 @@
+test : python volume_estimator.py --input_images ../Food_Detection/Myfood/images/test_set/chocolate_cake/1520283.jpg --depth_model_architecture depth_architecture.json --depth_model_weights depth_weights.h5 --segmentation_weights segmentation_weights.h5
+test2 : python volume_estimator.py --input_images ../Food_Detection/Myfood/images/test_set/ramen/Img_050_0370.jpg --depth_model_architecture depth_architecture.json --depth_model_weights depth_weights.h5 --segmentation_weights segmentation_weights.h5  --plot_results
+
+
+접시 지름 : --plate_diameter_prior 2.5 이런식으로 기입하면 됩니다.
+ --plot_results 추가로 넣어주면 이런 그림 뜨게 할 수 있어요
+
+
+
+불고기 : Img_007_0547, Img_007_0251, Img_007_0720
+초코케잌 : 1520283, 3899563
+햄버거 : 1010136, 1071442, 1177971, 1230241, 3071165, 3508112
+짜장면 : Img_057_0237, Img_057_0353, Img_057_0563, Img_057_0836, 
+김밥 : Img_069_0754, Img_069_0755, Img_069_0809, Img_069_0937
+라면 : Img_050_0284
+
+-----
+비빔밥 : 83215(불고기), 
+초코케잌 : 3509061(불고기), 3370863(불고기), 346800(짜장면)
+김밥 : Img_069_0794(햄버거)
+김치찌개 : Img_119_0111(짜장면), Img_119_0122(불고기)
+피자 : 415551(햄버거)
+라면 : Img_050_0099(햄버거), Img_050_0370(김밥)
+샌드위치 : 335343(햄버거), 1328687(햄버거)
+스테이크 : 970916(짜장면)
+스시 : 780283(김밥)
